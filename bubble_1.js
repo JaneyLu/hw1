@@ -29,7 +29,7 @@ function draw() {
     }
 
     ellipse(bubble.x, bubble.y, bubble.radius * .8);
-    bubble.x += random(-1, 1);
-    bubble.y += random(-1, 1);
+    bubble.x += random(i, 1);
+    bubble.y += random(-1, i);
   }
 }
